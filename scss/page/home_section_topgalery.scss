@@ -1,0 +1,26 @@
+.topgalery_{
+    margin-top: 110px;
+}
+.topgalery_box_bottom{
+    margin-top: 90px;
+}
+.topgalery_img{
+    height: $topgalery_img-size;
+}
+.topgalery_box_lifestyle{
+    color: $Lifestyle-color;
+    font-size: $Lifestyle-size;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.topgalery_box_title{
+    color: $topgalery_box_title-color;
+    font-size: $topgalery_box_title-size;
+    margin-top: 30px;
+}
+.topgalery_box_text{
+    color: $topgalery_box_text-color;
+    font-size: $topgalery_box_text-size;
+    margin-top: 40px;
+    line-height: 1.2;
+}

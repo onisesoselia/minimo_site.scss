@@ -1,0 +1,29 @@
+@import "./partials/reset.scss";
+@import "./partials/fonts.scss";
+
+// variables scss
+@import "./moduls/variables.scss";
+
+// base scss
+@import "./moduls/base.scss";
+
+// layout header scss
+@import "./layout/header.scss";
+
+// home page component
+@import "./page/home_section_weekende.scss";
+@import "./page/home_section_topgalery.scss";
+@import "./page/home_section_singup.scss";
+@import "./page/home_section_bottomgalery.scss";
+
+// photodiary page component
+@import "./page/photodiary_section_toptext.scss";
+@import "./page/photodiary_section_topgalery.scss";
+@import "./page/photodiary_section_botomgalery.scss";
+@import "./page/photodiary_section_comments.scss";
+
+// layout footer scss
+@import "./layout/footer.scss";
+
+// responsive 
+@import "./partials/responsive.scss";

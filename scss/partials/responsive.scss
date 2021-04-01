@@ -1,0 +1,95 @@
+@media screen and (max-width: 767.98px) {
+    nav .main_menu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: top 1s ease;
+        display: none;
+        background: black;
+        color: white;
+    }
+
+.close_menu{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+}
+
+    nav .open_menu {
+        display: block;
+    }
+
+    nav .main_menu li a {
+        background: none;
+        color: rgb(255, 123, 0);
+        font-size: 1.6rem;
+    }
+    nav .main_menu li a:hover {
+        background: rgb(80, 51, 51);
+    }
+
+    .icons i{
+        display: inline-block;
+        padding: 12px;
+        font-size: 1.6rem;
+    }
+
+    nav .logo {
+        padding: 10px;
+    }
+    .footer_block{
+        justify-content: space-between;
+    }
+    .topgalery_box_resp{
+        margin-top: 90px;
+    }
+    .bottomgalery_resp{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .singup_input{
+        width: 250px;
+    }
+    .singup_btn{
+        left: 225px;
+    }
+    .singup_title{
+        font-size: 23px;
+    }
+    nav .logo{
+        font-size: 1.6rem;
+    }
+    .footer_block{
+        font-size: 0.7rem;
+    }
+    .footer_span{
+        margin-left: 15px;
+    }
+    .photodiary_botomgalery_resp{
+        margin-top: 90px;
+    }
+}
+
+@media screen and (min-width: 767.98px) {
+    .close_menu {
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
+    }
+
+    .icons {
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
+    }
+}

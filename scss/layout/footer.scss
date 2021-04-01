@@ -1,0 +1,33 @@
+.footer_ {
+    width: 100%;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+}
+
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    color: $nav-Color;
+}
+
+.footer_text {
+    display: flex;
+}
+
+.footer_ul {
+    display: flex;
+}
+
+.footer_span {
+    margin-left: 30px;
+}
+
+.footer_ul li {
+    margin-right: 15px;
+}
+
+.footer_icon_text {
+    margin-right: 20px !important;
+}

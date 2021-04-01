@@ -1,0 +1,42 @@
+.photodiary{
+    font-size: $photodiary-size;
+    text-transform: uppercase;
+    color: $photodiary-Color;
+    margin-top: 100px;
+}
+.perfect_title{
+    font-size: $weekende_title-size;
+    color: $weekende_title-color;
+    margin-top: 30px;
+}
+.perfect_text{
+    color: $weekende_text-color;
+    font-size: $weekende_text-size;
+    margin-top: 35px;
+    line-height: 1.5;
+}
+.perfect_leave{
+    color: $weekend_leave-color;
+    font-size: $weekend_leave-size;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+.perfect_text span{
+    font-weight: bold;
+}
+.perfect_text p{
+    padding-top: 20px;
+}
+.perfect_topgalery_text_icons{
+    display: flex;
+    margin:50px 0px ;
+    justify-content: flex-end;
+}
+.perfect_topgalery_text_icons li{
+    padding-left: 10px;
+    font-size: 16px;
+    color: $Lifestyle-color;
+}
+.share_icons{
+    padding-right: 10px;
+}
