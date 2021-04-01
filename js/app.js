@@ -1,6 +1,6 @@
-const main_menu = document.querySelector('.main_menu');
-const close_menu = document.querySelector('.close_menu');
-const open_menu = document.querySelector('.open_menu');
+var main_menu = document.querySelector('.main_menu');
+var close_menu = document.querySelector('.close_menu');
+var open_menu = document.querySelector('.open_menu');
 
 
 open_menu.addEventListener('click',show);
@@ -12,5 +12,5 @@ function show(){
     main_menu.style.top = '0';
 }
 function close(){
-    main_menu.style.top = '-100%';
+    main_menu.style.top = '-200%';
 }
